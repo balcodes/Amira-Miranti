@@ -1,0 +1,231 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+.Amira{
+    background-image: url(https://img.freepik.com/free-vector/prickly-juniper-branch-beige-gray-minimal-background_53876-113047.jpg?size=626&ext=jpg&uid=R68094038&ga=GA1.2.1181442604.1682645504&semt=ais);
+    width: 100%;
+    background-size: 1000pt;
+}
+
+
+
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poopins;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    line-height: 70px;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background: #526D82;
+    border-bottom: 5px solid;
+    border-color:  #7B8FA1;;
+}
+
+
+
+.Logo a{
+    
+    font-family: Poopins;
+    font-size: 30px;
+    font-weight: 20px;
+    color:  burlywood;
+    float: left;
+    padding: 0px 25px 0px 25px;
+}
+
+
+.Menu{
+    float: right;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:  burlywood;
+    font-family: Poopins;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+
+.links a:hover{
+    color: #567189;
+}
+
+.links a{
+    font-size: 20px;
+    color: burlywood;
+    margin: 15px 10px;
+}
+
+
+.links{
+    float: right;
+    padding: 20px 0px 20px 0px;
+    margin: 10px;
+}
+
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 1 10%;
+    overflow: hidden;
+}
+
+
+.cols{
+    width: 50%;
+}
+
+
+.topline{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+
+.topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color:  #7B8FA1;
+}
+
+
+h1{
+    display: block;
+    font-size: 7em;
+    font-weight: 40px;
+    color: black;
+    text-align: center;
+}
+
+
+
+.multitext{
+    color: burlywood;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+
+
+p{
+    display: block;
+    width: 50%;
+    font-size: 1.2em;
+    color: black;   
+    text-align: center; 
+}
+
+.btns{
+    width: 100%;
+    position: relative;
+    left: 80px;
+}
+
+button{
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    background-color: burlywood;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0,4);
+}
+
+
+
+button:hover{
+    background-color: #7B8FA1;
+}
+
+li a:hover{
+    color: #643A6B;
+}
+
+
+.kolom{
+    text-align: center;
+
+}
+
+
+class .deskripsi{
+    text-align: center;
+}
+
+
+
+.footer{
+    text-align: center;
+}
+
+.footer-section{
+    margin: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.img-src{
+    width: 50%;
+    display: flex;
+}
+
+
+
+.copyright{
+    text-align: center;
+}
